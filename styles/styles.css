@@ -1,0 +1,55 @@
+* nav{
+    background-color: black;
+    padding: 5px;
+}
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+#active{
+    border: 2px solid green;
+}
+nav ul li:hover{
+    background-color: rgb(112, 27, 187);
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: #b2b2b2;
+    padding: 10px;
+}
+body{
+    font-family: Verdana;
+    margin: 0;
+}
+footer{
+    padding: 0;
+    margin: 0;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+.product{
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
